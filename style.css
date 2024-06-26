@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 50px;
+    background-color: black;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    flex-direction: column;
+    gap:20px;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+.course{
+    padding: 10px;
+    color: whitesmoke;
+    background-color: grey;
+    font-size: large;
+    width: 3cm;
+    border-radius: 8px 0px 0px 8px;
+    border-style: hidden;
+}
+select{
+    color: whitesmoke;
+    background-color: rgb(7, 7, 7);
+    font-size: large;
+    width:5cm;
+}
+
+.submit{
+    width:3cm;
+    color: whitesmoke;
+    background-color: grey;
+    padding: 5px;
+    font-size: large;
+    border-radius: 5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-style: hidden;
+}
+@media screen and (max-width: 950px) {
+    .container{
+        width:100%;
+    }
+    
+  }
+  @media screen and (max-width: 500px) {
+    select{
+        color: whitesmoke;
+        background-color: rgb(7, 7, 7);
+        font-size: large;
+        width:100%;
+    }
+    
+  }
